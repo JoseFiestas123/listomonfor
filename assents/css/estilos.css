@@ -1,0 +1,55 @@
+header{
+    background-image: linear-gradient(
+      rgba(12, 12, 12, 0),
+      rgba(32, 32, 32, 0.041)
+    ),
+ url(https://images.pexels.com/photos/3772511/pexels-photo-3772511.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260); 
+height: 350px !important; 
+width: 100%; 
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.title h1{
+   font-family: var(--text-to);
+   font-weight: lighter;
+   color: var(--color-primary);
+}
+
+.title p{
+    font-size: 14px;
+    padding-top: 10px;
+    color: var(--white);
+}
+
+.info .hdos{
+    color: var(--color-secundary);
+    font-size: 25px;
+
+}
+
+.list span{
+    color: var(--color-secundary);
+    padding-right: 10px;
+}
+
+.list p{
+    color: var(--color-secundary);
+    font-size: 15px;
+}
+
+.infomas{
+    margin-bottom: 90px;
+    padding-top: 10px;
+
+}
+
+.img{
+    border-radius: 20px;
+    margin-top: 10px;
+}
